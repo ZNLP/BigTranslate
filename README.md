@@ -37,7 +37,7 @@ The BigTrans Model weights are based on [GNU General Public License v3.0](https:
 
 ### 📎 Model Download
 
-**BigTrans**：[BigTrans-13B](https://huggingface.co/Linly-AI/Chinese-LLaMA-13B)
+**BigTrans**：[BigTrans-13B](https://huggingface.co/James-WYang/BigTrans)
 
 > Model is uploading
 
