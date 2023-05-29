@@ -37,7 +37,7 @@ The BigTrans Model weights are based on [GNU General Public License v3.0](https:
 
 ### 📎 Model Download
 
-**BigTrans**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans)  [Google Drive](https://drive.google.com/drive/folders/1r_X7sehOZ1g_an26EziuOrf7G8Q0DjB_?usp=drive_link)
+**BigTrans**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans), [Google Drive](https://drive.google.com/drive/folders/1r_X7sehOZ1g_an26EziuOrf7G8Q0DjB_?usp=drive_link)
 
 > Model is uploading
 
