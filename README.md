@@ -94,6 +94,10 @@ We thank all contributors for BigTrans projects.
 
 This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca). Thanks for their wonderful works.
 
+# Contact
+
+If you have any questions, please feel free to contact us by sending an email to $\left\{\right.$yangwen2023, lichong2021$\left .\right\}$@ia.ac.cn, $\left\{\right.$jjzhang, cqzong$\left .\right\}$@nlpr.ia.ac.cn .
+
 
 
 
