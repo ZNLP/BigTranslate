@@ -293,31 +293,6 @@ if __name__ == '__main__':
 
     set_seed(args.seed)
 
-    # model_path = "/home/chli/LLaMA/data/llama-7b-hf"
-    # model_path = "/home/chli/LLaMA/data/llama-13b-hf"
-
-    # init_model = None
-    # init_model = "/home/chli/OPT/log/1.3b/seed7/step_300/pytorch_model.bin"
-    # half_model = "/home/chli/OPT/log/1.3b/seed6/step_100/pytorch_model.half.bin"
-
-    # input_path = "/home/chli/OPT/data/wmt17/dev.mini.prompt.txt"   
-    # gold_path = "/home/chli/OPT/data/wmt17/dev.mini.gold.txt" 
-    
-    # inplace replace
-    # fp32to16(model_path=model_path, init_model=init_model)
-
-    # model_path = "/home/chli/OPT/data/opt-iml-max-30b"
-    # init_model = None
-    # init_model = "/home/chli/OPT/log/30b/seed0/step_1000/pytorch_model.bin"
-    # tgt_dir = "/home/chli/OPT/log/30b/original/pytorch_model.bin"
-    # to tgt directory
-    # fp32to16_dir(model_path=model_path, init_path=init_model, tgt_dir=tgt_dir)
-
-    # model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, state_dict= torch.load(init_model) if init_model is not None else None)
-    # torch.save(model.state_dict(), tgt_dir)
-
-    # the fast tokenizer currently does not work correctly
-    # tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
     
     print(args.out_file)
 
@@ -331,8 +306,6 @@ if __name__ == '__main__':
             )
 
     
-
-    # eval_translate(model, tokenizer, prompts, gold_path, max_length=256)
     
     generation_config = {
         "do_sample": not args.beam_search,
