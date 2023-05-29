@@ -42,45 +42,50 @@ The BigTrans Model weights are based on [GNU General Public License v3.0](https:
 > Model is uploading
 
 ### 📌 Model Inference
+Install dependencies:
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 Example usage:
-```bash
-python -u model/inference.py \
-  --model ${CHECKPOINT_PATH} \
-  --tokenizer-path ${TOKENIZER_PATH} \
-  --prompt-path ${PROMPT_PATH} \
-  --with-instruct \
-  --out-file ${LOW_OUT_FILE} \
-  --seed ${SEED} \
-  --beam-search \
-  --num-beams ${NUM_BEAMS} \
-  --times ${OUT_TIME} \
-  --max-tokens ${MAX_TOKENS} \
-  --no-repeat-ngram-size ${NO_REPEAT_NGRAM_SIZE} \
-  --top-k ${TOP_K} \
-  --top-p ${TOP_P} \
-  --temperature ${TEMPERATURE} 2>&1 >>${LOG_FILE}
-```
+
+  ```bash
+  python -u model/inference.py \
+    --model ${CHECKPOINT_PATH} \
+    --tokenizer-path ${TOKENIZER_PATH} \
+    --prompt-path ${PROMPT_PATH} \
+    --with-instruct \
+    --out-file ${LOW_OUT_FILE} \
+    --seed ${SEED} \
+    --beam-search \
+    --num-beams ${NUM_BEAMS} \
+    --times ${OUT_TIME} \
+    --max-tokens ${MAX_TOKENS} \
+    --no-repeat-ngram-size ${NO_REPEAT_NGRAM_SIZE} \
+    --top-k ${TOP_K} \
+    --top-p ${TOP_P} \
+    --temperature ${TEMPERATURE} 2>&1 >>${LOG_FILE}
+  ```
 We can customize the hyperparameters:
 
-```bash
-python -u model/inference.py \
-  --model ${CHECKPOINT_PATH} \
-  --tokenizer-path ${TOKENIZER_PATH} \
-  --prompt-path ${PROMPT_PATH} \
-  --with-instruct \
-  --out-file ${LOW_OUT_FILE} \
-  --seed ${SEED} \
-  --beam-search \
-  --num-beams ${5} \
-  --times ${1} \
-  --max-tokens ${256} \
-  --no-repeat-ngram-size ${6} \
-  --top-k ${50} \
-  --top-p ${0.95} \
-  --temperature ${0.01} 2>&1 >>${LOG_FILE}
-```
+  ```bash
+  python -u model/inference.py \
+    --model ${CHECKPOINT_PATH} \
+    --tokenizer-path ${TOKENIZER_PATH} \
+    --prompt-path ${PROMPT_PATH} \
+    --with-instruct \
+    --out-file ${LOW_OUT_FILE} \
+    --seed ${SEED} \
+    --beam-search \
+    --num-beams ${5} \
+    --times ${1} \
+    --max-tokens ${256} \
+    --no-repeat-ngram-size ${6} \
+    --top-k ${50} \
+    --top-p ${0.95} \
+    --temperature ${0.01} 2>&1 >>${LOG_FILE}
+  ```
 
 ## License
 
@@ -94,7 +99,7 @@ We thank all contributors for BigTrans projects.
 
 This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca). Thanks for their wonderful works.
 
-# Contact
+## Contact
 
 If you have any questions, please feel free to contact us by sending an email to {yangwen2023, lichong2021}@ia.ac.cn, {jjzhang, cqzong}@nlpr.ia.ac.cn .
 
