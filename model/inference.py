@@ -1,4 +1,3 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import time
 from nltk.translate.bleu_score import sentence_bleu
@@ -136,19 +135,6 @@ def eval_translate(model, tokenizer, prompts, gold_path, context="Chinese: æˆ‘æƒ
 
     print(f"Average bleu: {total_b/len(prompts)}")
 
-def fp32to16(model_path,init_model):
-    # convert fp32 model to fp16 model (in-place)
-    model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, state_dict= torch.load(init_model) if init_model is not None else None)
-    torch.save(model.state_dict(), init_model)
-
-# for direct load, in case the state dict needed
-def fp32to16_dir(model_path,init_path,tgt_dir):
-    # convert fp32 model to fp16 model (in-place)
-    model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16, state_dict= torch.load(init_path) if init_path is not None else None)
-    model.save_pretrained(tgt_dir)
-
-    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
-    tokenizer.save_pretrained(tgt_dir)
 
 def to_matrix(l, n):
     return [l[i:i+n] for i in range(0, len(l), n)]
