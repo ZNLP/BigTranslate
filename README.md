@@ -108,9 +108,9 @@ If you have any questions, please feel free to contact us by sending an email to
                Chong Li and
                Jiajun Zhang and
                Chengqing Zong},
-  title="BigTrans: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages",
-  journal={arXiv preprint arXiv:}
-  year="2023"
+  title={BigTrans: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages},
+  journal={arXiv preprint arXiv:},
+  year={2023}
 }
 ```
 
