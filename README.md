@@ -96,7 +96,7 @@ This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Sta
 
 # Contact
 
-If you have any questions, please feel free to contact us by sending an email to {$yangwen2023$, $lichong2021$}@ia.ac.cn, {$jjzhang$, $cqzong$}@nlpr.ia.ac.cn .
+If you have any questions, please feel free to contact us by sending an email to {$yangwen2023, lichong2021$}@ia.ac.cn, {$jjzhang, cqzong$}@nlpr.ia.ac.cn .
 
 
 
