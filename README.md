@@ -78,13 +78,10 @@ We can customize the hyperparameters:
     --out-file ${LOW_OUT_FILE} \
     --seed ${SEED} \
     --beam-search \
-    --num-beams ${5} \
-    --times ${1} \
-    --max-tokens ${256} \
-    --no-repeat-ngram-size ${6} \
-    --top-k ${50} \
-    --top-p ${0.95} \
-    --temperature ${0.01} 2>&1 >>${LOG_FILE}
+    --num-beams 5 \
+    --times 1 \
+    --max-tokens 256 \
+    --no-repeat-ngram-size 6 2>&1 >>${LOG_FILE}
   ```
 
 ## License
