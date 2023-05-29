@@ -100,7 +100,19 @@ This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Sta
 
 If you have any questions, please feel free to contact us by sending an email to {yangwen2023, lichong2021}@ia.ac.cn, {jjzhang, cqzong}@nlpr.ia.ac.cn .
 
+## Citation
 
+```
+@article{yang-etal-2023-BigTrans,
+  author    = {Wen Yang and
+               Chong Li and
+               Jiajun Zhang and
+               Chengqing Zong},
+  title="BigTrans: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages",
+  journal={arXiv preprint arXiv:}
+  year="2023"
+}
+```
 
 
 
