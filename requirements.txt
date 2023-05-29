@@ -1,0 +1,5 @@
+torch==1.12.1
+transformers>=4.21.0
+sentencepiece==0.1.97
+nltk==3.8.1
+jieba==0.42.1
