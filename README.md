@@ -54,7 +54,7 @@ Example usage:
   python -u model/inference.py \
     --model ${CHECKPOINT_PATH} \
     --tokenizer-path ${TOKENIZER_PATH} \
-    --prompt-path ${PROMPT_PATH} \
+    --prompt-file ${PROMPT_FILE} \
     --with-instruct \
     --out-file ${LOW_OUT_FILE} \
     --seed ${SEED} \
@@ -73,9 +73,9 @@ We can customize the hyperparameters:
   python -u model/inference.py \
     --model ${CHECKPOINT_PATH} \
     --tokenizer-path ${TOKENIZER_PATH} \
-    --prompt-path ${PROMPT_PATH} \
+    --prompt-file ${PROMPT_FILE} \
     --with-instruct \
-    --out-file ${LOW_OUT_FILE} \
+    --out-file ${BEAM_OUT_FILE} \
     --seed ${SEED} \
     --beam-search \
     --num-beams 5 \
