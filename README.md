@@ -1,4 +1,8 @@
 # 🦙  **BigTrans**  🚀
+## 💥 News
+**[May 31, 2023] [Release](https://huggingface.co/James-WYang/BigTrans) Open-sourcing BigTrans model, currently offering model and inference code for download and experience 
+
+
 ## ⭐ BigTrans Construction
 ### 🌓 Large-scale Parallel Dataset Construction
 In order to enhance the language capabilities of the Chinese LLaMA model to support 102 languages, we constructed a comprehensive parallel corpus dataset consisting of 102 languages. This dataset was employed to continue training the foundational model. The compilation of this dataset drew upon multiple sources, including widely available public parallel corpus datasets and household datasets. The public datasets utilized in our study contain IWSLT, WMT, CCMT, and OPUS-100, forming the initial corpus of our dataset.
@@ -37,9 +41,10 @@ The BigTrans Model weights are based on [GNU General Public License v3.0](https:
 
 ### 📎 Model Download
 
-**BigTrans**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans), [Google Drive](https://drive.google.com/drive/folders/1r_X7sehOZ1g_an26EziuOrf7G8Q0DjB_?usp=drive_link)
+**BigTrans**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans) 
+<!-- [Google Drive](https://drive.google.com/drive/folders/1r_X7sehOZ1g_an26EziuOrf7G8Q0DjB_?usp=drive_link) -->
 
-> ⏳ Model is uploading
+<!-- > ⏳ Model is uploading -->
 
 ### 📌 Model Inference
 Install dependencies:
