@@ -1,6 +1,6 @@
 # 🦙  **BigTrans**  🚀
-## 💥 News
-**[May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!**
+## 📢 News
+**💥 [May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!**
 
 
 ## ⭐ BigTrans Construction
