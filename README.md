@@ -1,6 +1,7 @@
 # 🦙  **BigTrans**  🚀
 ## 📢 News
 **💥[June 6, 2023] We have updated [translate_BigTrans.sh](./translate_Bigtrans.sh) to directly utilize BigTrans for multilingual machine translation!**
+
 [May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
 ## 📝 Case study
 ### French -> English
@@ -18,6 +19,7 @@
 > BigTrans: The report starts by calling for an open debate and for unity in the United States on its policy towards the Middle East.
 > 
 > Instruction: 请将以下丹麦语句子翻译成英语：Mere end fire millioner mennesker tog til Rom for at deltage i begravelsen
+> 
 > BigTrans: More than 4 million people went to Rome to attend the funeral.
 
 ### English -> Chinese
