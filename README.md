@@ -77,7 +77,7 @@ Specifically, we follow a three-step approach in our incremental pre-training me
 
 We have designed a set of 28 multilingual translation prompts that encompass various application scenarios for multilingual translation. We randomly select a prompt from the set for instruction tuning for each parallel sentence. Accordingly, the instruction tuning dataset is scrambled to ensure randomness and diversity.
 
-During training phase, We randomly select a prompt from the following 28 multilingual translation prompts.
+During training phase, We randomly select a prompt from the following 28 multilingual translation prompts for each sentence.
 ```
 请将以下{SRC_LANG}句子翻译成{TGT_LANG}：{SRC_Text}
 请将以下{SRC_LANG}文本翻译成{TGT_LANG}：{SRC_Text}
@@ -108,7 +108,7 @@ During training phase, We randomly select a prompt from the following 28 multili
 这个句子“{SRC_Text}”用{TGT_LANG}怎么说？
 这个文本“{SRC_Text}”用{TGT_LANG}怎么说？
 ```
-During inference phase, We randomly select a prompt from the following two multilingual translation prompts.
+During inference phase, We randomly select a prompt from the following two multilingual translation prompts for each sentence.
 ```
 请将以下{SRC_LANG}句子翻译成{TGT_LANG}：{SRC_Text}
 请将以下句子翻译成{TGT_LANG}：{SRC_Text}
