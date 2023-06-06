@@ -1,6 +1,6 @@
 # 🦙  **BigTrans**  🚀
 ## 📢 News
-**💥[June 6, 2023] We have updated [translate_BigTrans.sh](./translate_Bigtrans.sh) to directly utilize BigTrans for multilingual machine translation!**
+**💥[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTrans for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.**
 
 [May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
 ## 📝 Case study
@@ -185,6 +185,30 @@ We can customize the hyperparameters:
     --max-tokens 256 \
     --no-repeat-ngram-size 6 2>&1 >>${LOG_FILE}
   ```
+We made a script in [inference.sh](./inference.sh) to run model inference.
+
+### 💡 Translate with BigTrans
+
+Example usage:
+  ```
+  python -u model/translate.py \
+    --model ${CHECKPOINT_PATH} \
+    --tokenizer-path ${TOKENIZER_PATH} \
+    --prompt-file ${PROMPT_FILE} \
+    ${ADD_PARAMETERS} \
+    --out-file ${SAVE_PATH} \
+    --source-language ${SRC_LANG} \
+    --target-language ${TGT_LANG} \
+    --seed ${SEED} \
+    --beam-search \
+    --parameter-type ${MODEL_TYPE} \
+    --num-beams ${NUM_BEAMS} \
+    --times ${OUT_TIME} \
+    --max-tokens ${MAX_TOKENS} \
+    --no-repeat-ngram-size ${NO_REPEAT_NGRAM_SIZE} \
+    --temperature ${LOW_TEMPERATURE} 2>&1 >>${LOG_FILE}
+  ```
+We made a script in [translate.sh](./translate.sh) to translate with BigTrans.
 
 ## License
 
