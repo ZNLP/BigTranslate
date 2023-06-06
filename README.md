@@ -1,7 +1,61 @@
 # 🦙  **BigTrans**  🚀
 ## 📢 News
-**💥 [May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!**
+**💥[June 6, 2023] We have updated [translate_BigTrans.sh](./translate_Bigtrans.sh) to directly utilize BigTrans for multilingual machine translation!**
+[May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
+## 📝 Case study
+### French -> English
+> Instruction: 请将以下法语句子翻译成英语：Cette découverte permet également de mieux comprendre l'évolution des plumes chez les oiseaux.
+> 
+> BigTrans: This finding also provides a better understanding of the evolution of feathers in birds.
+> 
+> Instruction: 请将以下句子翻译成英语：Il a été volé par des pirates, attaqué au Tibet par un chien enragé, a échappé à un mariage au Népal et a été arrêté en Inde.
+> 
+> BigTrans: Along the way he was hijacked by pirates, attacked by an angry dog in Tibet, narrowly escaped an arranged marriage in Nepal, and was arrested in India.
 
+### Danish -> English
+> Instruction: 请将以下丹麦语句子翻译成英语：Rapporten starter med at opfordre til en åben debat, og til at der skabes enighed i USA om landets politik over for Mellemøsten.
+> 
+> BigTrans: The report starts by calling for an open debate and for unity in the United States on its policy towards the Middle East.
+> 
+> Instruction: 请将以下丹麦语句子翻译成英语：Mere end fire millioner mennesker tog til Rom for at deltage i begravelsen
+> BigTrans: More than 4 million people went to Rome to attend the funeral.
+
+### English -> Chinese
+> Instruction: 请将以下英语句子翻译成汉语：You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.
+> 
+> BigTrans: 您也可以咨询其他国家政府的意见，但这些意见是针对本国公民而设计的。
+> 
+> Instruction: 请将以下句子翻译成汉语：Typically there will be a tuition fee to enroll in these educational programs.
+> 
+> BigTrans: 参加这些教育培训项目的学生通常需要缴纳学费。
+
+
+### Tibetan -> Chinese
+> Instruction: 请将以下句子翻译成汉语：ཚད་ལྡན་གྱི་འཁྱགས་ཤུད་སྤོ་ལོའི་ཐང་གི་ཚད་གཞི་ཆེ་ཤོས་ནི་རིང་ཚད་ལ་སྨི་61དང་ཞེང་ཚད་ལ་སྨི་30ཡོད།
+> 
+> BigTrans: 标准冰橇长度最大的是61米，最小的是30米
+> 
+> Instruction: 请将以下藏语句子翻译成汉语：ངས་ཤེས་གསལ་ལྟར་ན།  ང་ཚོའི་རྐང་རྩེད་སྤོ་ལོ་རུ་ཁག་གི་ནུས་ཤུགས་ཁོ་ཚོ་ལས་བཟང་།
+> 
+> BigTrans: 就我所知，我们的足球队比他们强。
+
+### English -> Portuguese
+> Instruction: 请将以下英语句子翻译成葡萄牙语：Several large television screens were installed in various places in Rome to let the people watch the ceremony.
+> 
+> BigTrans: Diversos grandes ecrãs televisivos foram instalados em diversos lugares em Roma para que as pessoas pudessem assistir à cerimónia.
+> 
+> Instruction: 请将以下英语句子翻译成葡萄牙语：Scientists say the explosion caused by the collision was massive.
+> 
+> BigTrans: Os cientistas dizem que a explosão causada pela colisão foi massiva.
+
+### English -> Swedish
+> Instruction: 请将以下句子翻译成瑞典语：Negotiators tried to rectify the situation, but the prisoners' demands are not clear.
+> 
+> BigTrans: Förhandlarna försöker korrigera situationen, men fångarnas krav är inte klara.
+> 
+> Instruction: 请将以下英语句子翻译成瑞典语：Although the water level will only rise a few feet after the flood, officials are hoping it will be enough to restore eroded sandbars downstream.
+> 
+> BigTrans: Även om vattennivån endast ökar några fot efter översvämningen, hoppas myndigheterna att det räcker för att återställa eroderade sandbankar nedströms.
 
 ## ⭐ BigTrans Construction
 ### 🌓 Large-scale Parallel Dataset Construction
