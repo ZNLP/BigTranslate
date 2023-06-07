@@ -3,7 +3,7 @@
 **💥[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTrans for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.**
 
 [May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
-## 📝 Case study
+## 📝 Case Study
 *French -> English*
 > Instruction: 请将以下法语句子翻译成英语：Cette découverte permet également de mieux comprendre l'évolution des plumes chez les oiseaux.
 > 
