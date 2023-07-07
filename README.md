@@ -1,6 +1,8 @@
 # 🦙  **BigTranslate**  🚀
 ## 📢 News
-**💥[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTranslate for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.**
+**💥[July 7, 2023] We have changed the model name to **BigTranslate** **
+
+[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTranslate for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.
 
 [May 31, 2023] We have released BigTranslate model on [Hugging Face](https://huggingface.co/James-WYang/BigTranslate) for download and experience!
 ## 📝 Case Study
