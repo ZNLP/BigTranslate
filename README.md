@@ -2,7 +2,7 @@
 ## 📢 News
 **💥[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTranslate for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.**
 
-[May 31, 2023] We have released BigTranslate model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
+[May 31, 2023] We have released BigTranslate model on [Hugging Face](https://huggingface.co/James-WYang/BigTranslate) for download and experience!
 ## 📝 Case Study
 *French -> English*
 > Instruction: 请将以下法语句子翻译成英语：Cette découverte permet également de mieux comprendre l'évolution des plumes chez les oiseaux.
@@ -138,10 +138,14 @@ The BigTranslate Model weights are based on [GNU General Public License v3.0](ht
 
 ### 📎 Model Download
 
-**BigTranslate**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans) 
+**BigTranslate**：[Hugging Face](https://huggingface.co/James-WYang/BigTranslate) 
 <!-- [Google Drive](https://drive.google.com/drive/folders/1r_X7sehOZ1g_an26EziuOrf7G8Q0DjB_?usp=drive_link) -->
 
 <!-- > ⏳ Model is uploading -->
+
+
+
+
 
 ### 📌 Model Inference
 Install dependencies:
