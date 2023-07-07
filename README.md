@@ -1,64 +1,64 @@
-# 🦙  **BigTrans**  🚀
+# 🦙  **BigTranslate**  🚀
 ## 📢 News
-**💥[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTrans for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.**
+**💥[June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTranslate for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.**
 
-[May 31, 2023] We have released BigTrans model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
+[May 31, 2023] We have released BigTranslate model on [Hugging Face](https://huggingface.co/James-WYang/BigTrans) for download and experience!
 ## 📝 Case Study
 *French -> English*
 > Instruction: 请将以下法语句子翻译成英语：Cette découverte permet également de mieux comprendre l'évolution des plumes chez les oiseaux.
 > 
-> BigTrans: This finding also provides a better understanding of the evolution of feathers in birds.
+> BigTranslate: This finding also provides a better understanding of the evolution of feathers in birds.
 > 
 > Instruction: 请将以下句子翻译成英语：Il a été volé par des pirates, attaqué au Tibet par un chien enragé, a échappé à un mariage au Népal et a été arrêté en Inde.
 > 
-> BigTrans: Along the way he was hijacked by pirates, attacked by an angry dog in Tibet, narrowly escaped an arranged marriage in Nepal, and was arrested in India.
+> BigTranslate: Along the way he was hijacked by pirates, attacked by an angry dog in Tibet, narrowly escaped an arranged marriage in Nepal, and was arrested in India.
 
 *Danish -> English*
 > Instruction: 请将以下丹麦语句子翻译成英语：Rapporten starter med at opfordre til en åben debat, og til at der skabes enighed i USA om landets politik over for Mellemøsten.
 > 
-> BigTrans: The report starts by calling for an open debate and for unity in the United States on its policy towards the Middle East.
+> BigTranslate: The report starts by calling for an open debate and for unity in the United States on its policy towards the Middle East.
 > 
 > Instruction: 请将以下丹麦语句子翻译成英语：Mere end fire millioner mennesker tog til Rom for at deltage i begravelsen
 > 
-> BigTrans: More than 4 million people went to Rome to attend the funeral.
+> BigTranslate: More than 4 million people went to Rome to attend the funeral.
 
 *English -> Chinese*
 > Instruction: 请将以下英语句子翻译成汉语：You may also wish to consult the advice of governments other than your own, but their advice is designed for their citizens.
 > 
-> BigTrans: 您也可以咨询其他国家政府的意见，但这些意见是针对本国公民而设计的。
+> BigTranslate: 您也可以咨询其他国家政府的意见，但这些意见是针对本国公民而设计的。
 > 
 > Instruction: 请将以下句子翻译成汉语：Typically there will be a tuition fee to enroll in these educational programs.
 > 
-> BigTrans: 参加这些教育培训项目的学生通常需要缴纳学费。
+> BigTranslate: 参加这些教育培训项目的学生通常需要缴纳学费。
 
 *Tibetan -> Chinese*
 > Instruction: 请将以下句子翻译成汉语：ཚད་ལྡན་གྱི་འཁྱགས་ཤུད་སྤོ་ལོའི་ཐང་གི་ཚད་གཞི་ཆེ་ཤོས་ནི་རིང་ཚད་ལ་སྨི་61དང་ཞེང་ཚད་ལ་སྨི་30ཡོད།
 > 
-> BigTrans: 标准冰橇长度最大的是61米，最小的是30米
+> BigTranslate: 标准冰橇长度最大的是61米，最小的是30米
 > 
 > Instruction: 请将以下藏语句子翻译成汉语：ངས་ཤེས་གསལ་ལྟར་ན།  ང་ཚོའི་རྐང་རྩེད་སྤོ་ལོ་རུ་ཁག་གི་ནུས་ཤུགས་ཁོ་ཚོ་ལས་བཟང་།
 > 
-> BigTrans: 就我所知，我们的足球队比他们强。
+> BigTranslate: 就我所知，我们的足球队比他们强。
 
 *English -> Portuguese*
 > Instruction: 请将以下英语句子翻译成葡萄牙语：Several large television screens were installed in various places in Rome to let the people watch the ceremony.
 > 
-> BigTrans: Diversos grandes ecrãs televisivos foram instalados em diversos lugares em Roma para que as pessoas pudessem assistir à cerimónia.
+> BigTranslate: Diversos grandes ecrãs televisivos foram instalados em diversos lugares em Roma para que as pessoas pudessem assistir à cerimónia.
 > 
 > Instruction: 请将以下英语句子翻译成葡萄牙语：Scientists say the explosion caused by the collision was massive.
 > 
-> BigTrans: Os cientistas dizem que a explosão causada pela colisão foi massiva.
+> BigTranslate: Os cientistas dizem que a explosão causada pela colisão foi massiva.
 
 *English -> Swedish*
 > Instruction: 请将以下句子翻译成瑞典语：Negotiators tried to rectify the situation, but the prisoners' demands are not clear.
 > 
-> BigTrans: Förhandlarna försöker korrigera situationen, men fångarnas krav är inte klara.
+> BigTranslate: Förhandlarna försöker korrigera situationen, men fångarnas krav är inte klara.
 > 
 > Instruction: 请将以下英语句子翻译成瑞典语：Although the water level will only rise a few feet after the flood, officials are hoping it will be enough to restore eroded sandbars downstream.
 > 
-> BigTrans: Även om vattennivån endast ökar några fot efter översvämningen, hoppas myndigheterna att det räcker för att återställa eroderade sandbankar nedströms.
+> BigTranslate: Även om vattennivån endast ökar några fot efter översvämningen, hoppas myndigheterna att det räcker för att återställa eroderade sandbankar nedströms.
 
-## ⭐ BigTrans Construction
+## ⭐ BigTranslate Construction
 ### 🌓 Large-scale Parallel Dataset Construction
 In order to enhance the language capabilities of the Chinese LLaMA model to support 102 languages, we constructed a comprehensive parallel corpus dataset consisting of 102 languages. This dataset was employed to continue training the foundational model. The compilation of this dataset drew upon multiple sources, including widely available public parallel corpus datasets and household datasets. The public datasets utilized in our study contain IWSLT, WMT, CCMT, and OPUS-100, forming the initial corpus of our dataset.
 
@@ -117,28 +117,28 @@ During inference phase, We randomly select a prompt from the following two multi
 
 ## 🌟 Experiments
 ### 🌖 Automatic Evaluation with BLEU
-An illustrated comparison of 102 languages from X to English or Chinese between BigTrans, ChatGPT and Google Translate. We sort the language scores in BLEU for BigTrans in descending order.
+An illustrated comparison of 102 languages from X to English or Chinese between BigTranslate, ChatGPT and Google Translate. We sort the language scores in BLEU for BigTranslate in descending order.
 
 ![image](./pics/104langs_bleu.png)
 
 ### 🌗 Automatic Evaluation with GPT-4
-An illustrated comparison of 70 languages from X to English or Chinese between BigTrans, ChatGPT and Google Translate. We sort the language scores in GPT-4 score for BigTrans in descending order.
+An illustrated comparison of 70 languages from X to English or Chinese between BigTranslate, ChatGPT and Google Translate. We sort the language scores in GPT-4 score for BigTranslate in descending order.
 
 ![image](./pics/70langs_gpt4.png)
 
-##  🤖 BigTrans Model
+##  🤖 BigTranslate Model
 
 ### ⚠️ User Notice (Must Read)
 
 <!-- The official [LLaMA models released by Facebook prohibit commercial use](https://github.com/facebookresearch/llama), and the official model weights have not been open-sourced (although there are many third-party download links available online). -->
 
-The BigTrans Model weights are based on [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) protocols, which is only for research use and cannot be used for commercial purposes. 
+The BigTranslate Model weights are based on [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) protocols, which is only for research use and cannot be used for commercial purposes. 
 
 ***Please confirm that you are using the model in this warehouse with [permission](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform?usp=send_form).***
 
 ### 📎 Model Download
 
-**BigTrans**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans) 
+**BigTranslate**：[Hugging Face](https://huggingface.co/James-WYang/BigTrans) 
 <!-- [Google Drive](https://drive.google.com/drive/folders/1r_X7sehOZ1g_an26EziuOrf7G8Q0DjB_?usp=drive_link) -->
 
 <!-- > ⏳ Model is uploading -->
@@ -187,7 +187,7 @@ We can customize the hyperparameters:
   ```
 We made a script in [inference.sh](./inference.sh) to run model inference.
 
-### 💡 Translate with BigTrans
+### 💡 Translate with BigTranslate
 
 Example usage:
   ```
@@ -208,7 +208,7 @@ Example usage:
     --no-repeat-ngram-size ${NO_REPEAT_NGRAM_SIZE} \
     --temperature ${LOW_TEMPERATURE} 2>&1 >>${LOG_FILE}
   ```
-We made a script in [translate.sh](./translate.sh) to translate with BigTrans.
+We made a script in [translate.sh](./translate.sh) to translate with BigTranslate.
 
 ## License
 
@@ -218,7 +218,7 @@ Following LLaMA, our pre-trained weights are released under GNU General Public L
 
 ## Acknowledgement
 
-We thank all contributors for BigTrans projects.
+We thank all contributors for BigTranslate projects.
 
 This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca). Thanks for their wonderful works.
 
