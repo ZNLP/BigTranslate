@@ -4,3 +4,4 @@ sentencepiece==0.1.97
 accelerate==0.16.0
 nltk==3.8.1
 jieba==0.42.1
+tensor_parallel==1.2.8
