@@ -5,6 +5,7 @@ import jieba
 import llama
 import argparse
 from accelerate.utils import set_seed
+import tensor_parallel as tp
 
 import os
 
@@ -51,7 +52,9 @@ def cut2list(line):
 def single_prompt(model, tokenizer, prompt="Hello, I'm am conscious and", max_new_tokens:int=128, do_sample:bool=True, num_beams:int=1, top_k:int=50, top_p:float=0.95, no_repeat_ngram_size=6, temperature:float=0.7, cuda=True, verbose=False):
     input_ids = tokenizer(prompt, return_tensors="pt").input_ids
     if cuda:
-        model = model.cuda()
+        # model = model.cuda()
+       
+        model = tp.tensor_parallel(model)
         input_ids = input_ids.cuda()
 
     with torch.inference_mode():
@@ -71,7 +74,9 @@ def batch_prompt(model, tokenizer, prompts:list=["Hello, I'm am conscious and"],
     input_ids = tokens["input_ids"]
     attention_mask = tokens["attention_mask"]
     if cuda:
-        model = model.cuda()
+        # model = model.cuda()
+       
+        model = tp.tensor_parallel(model)
         input_ids = input_ids.cuda()
         attention_mask = attention_mask.cuda()
     with torch.inference_mode():
