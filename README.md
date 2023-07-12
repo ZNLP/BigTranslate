@@ -1,6 +1,8 @@
 # 🦙  **BigTranslate**  🚀
 ## 📢 News
-*💥[July 7, 2023] We have changed our model name to **BigTranslate***
+**💥[July 12, 2023] We have implemented parallel inference on multiple GPUs by utilizing [tensor_parallel](https://github.com/BlackSamorez/tensor_parallel/)**
+
+[July 7, 2023] We have changed our model name to **BigTranslate**
 
 [June 6, 2023] We have updated [translate.sh](./translate.sh) to directly utilize BigTranslate for multilingual machine translation! Just only need to provide source and target language abbreviation, file path in script.
 
