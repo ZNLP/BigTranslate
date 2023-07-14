@@ -226,7 +226,7 @@ Following LLaMA, our pre-trained weights are released under GNU General Public L
 
 ## Acknowledgement
 
-We thank all contributors for BigTranslate projects.
+We thank all contributors for BigTranslate project.
 
 This repo benefits from [LLaMA](https://github.com/facebookresearch/llama), [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca). Thanks for their wonderful works.
 
