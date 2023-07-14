@@ -237,12 +237,12 @@ If you have any questions, please feel free to contact us by sending an email to
 ## Citation
 
 ```
-@article{yang-etal-2023-BigTrans,
+@article{yang-etal-2023-BigTranslate,
   author    = {Wen Yang and
                Chong Li and
                Jiajun Zhang and
                Chengqing Zong},
-  title={BigTrans: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages},
+  title={BigTranslate: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages},
   journal={arXiv preprint arXiv:2305.18098},
   url={https://arxiv.org/abs/2305.18098},
   year={2023}
