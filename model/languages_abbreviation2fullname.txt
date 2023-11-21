@@ -3,10 +3,12 @@ am	Amharic	阿姆哈拉语
 an	Aragonese	阿拉贡语
 ar	Arabic	阿拉伯语
 as	Assamese	阿萨姆语
+ast	Asturian 	阿斯图里亚斯语
 az	Azerbaijani	阿塞拜疆语
 be	Belarusian	白俄罗斯语
 bg	Bulgarian	保加利亚语
 bn	Bengali	孟加拉语
+bo	Tibetan	藏语
 br	Breton	布列塔尼语
 bs	Bosnian	波斯尼亚语
 ca	Catalan	加泰罗尼亚语
@@ -16,6 +18,7 @@ da	Danish	丹麦语
 de	German	德语
 dz	Dzongkha	宗喀语
 el	Greek	希腊语
+en	Engilish	英语
 eo	Esperanto	世界语
 es	Spanish	西班牙语
 et	Estonian	爱沙尼亚语
@@ -52,15 +55,15 @@ lv	Latvian	拉脱维亚语
 mg	Malagasy	马尔加什语
 mk	Macedonian	马其顿语
 ml	Malayalam	马拉雅拉姆语
-mn	Mongolian	蒙语
+mo	Mongolian	蒙古语
 mr	Marathi	马拉地语
 ms	Malay	马来语
 mt	Maltese	马耳他语
 my	Burmese	缅甸语
-nb	Norwegian Bokmal	巴克摩挪威文
+nb	Norwegian Bokmal	挪威博克马尔语 巴克摩挪威文
 ne	Nepali	尼泊尔语
 nl	Dutch	荷兰语
-nn	Norwegian Nynorsk	尼诺斯克挪威语
+nn	Norwegian Nynorsk	尼诺斯克挪威语 新挪威语
 no	Norwegian	挪威语
 oc	Occitan	奥克西唐语
 or	Oriya	奥里亚语
@@ -72,7 +75,7 @@ ro	Romanian	罗马尼亚语
 ru	Russian	俄语
 rw	Kinyarwanda	卢旺达语
 se	Northern Sami	北萨米语
-sh	Serbo-Croatian	塞克语
+sh	Serbo-Croatian	塞尔维亚-克罗地亚语 塞克语
 si	Sinhala	僧伽罗语
 sk	Slovak	斯洛伐克语
 sl	Slovenian	斯洛文尼亚语
@@ -86,9 +89,9 @@ th	Thai	泰语
 tk	Turkmen	土库曼语
 tr	Turkish	土耳其语
 tt	Tatar	鞑靼语
-ug	Uighur	维吾尔语
 uk	Ukrainian	乌克兰语
 ur	Urdu	乌尔都语
+uy	Uighur	维吾尔语
 uz	Uzbek	乌兹别克语
 vi	Vietnamese	越南语
 wa	Walloon	瓦隆语
@@ -97,7 +100,3 @@ yi	Yiddish	意第绪语
 yo	Yoruba	约鲁巴语
 zh	Chinese	汉语
 zu	Zulu	祖鲁语
-mo	Mongolian	蒙古语
-bo	Tibetan	藏语
-uy	Uighur	维吾尔语
-en	English	英语
